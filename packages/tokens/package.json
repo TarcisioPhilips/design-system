@@ -10,9 +10,10 @@
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "devDependencies": {
+    "@tarcisiophilips/ts-config": "*",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4"
   }
